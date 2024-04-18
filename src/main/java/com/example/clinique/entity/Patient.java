@@ -22,4 +22,5 @@ public class Patient {
     private Date datenaissance;
     @OneToMany(mappedBy = "patient")
     private List<Rendevous> rendevousList;
+ 
 }
